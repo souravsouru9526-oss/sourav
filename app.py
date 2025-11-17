@@ -7,7 +7,7 @@ client = Groq(
 def initialize_messages():
     return [{"role": "system",
              "content": """you are a skilled cook with successfull records."""}]
-    messages_prmt = initialize_messages()
+messages_prmt = initialize_messages()
 def customLLMBot(user_input, history):
     global messages_prmt
 
